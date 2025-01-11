@@ -102,12 +102,10 @@
 background-color: #FFC239;
 color: #FFFFFF;
 }
+
 button{
     border: none;
-    border-radius: 8px;
-  
-    
-}
+    border-radius: 8px;}
 
 .hw{
     height: 41px;
@@ -133,7 +131,17 @@ color: rgba(14, 14, 14, 0.7);
    padding: 5px;
    object-fit: cover;
   
-}   
+} 
+
+.btn-4{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 14px;
+  
+}
 .challenge-description{
   margin-bottom: 0px;
     font-size: 16px;
@@ -149,3 +157,36 @@ color: rgba(14, 14, 14, 0.7);
 margin-top: 12px;
 margin-bottom: 0px;
 }
+.recent-news{
+    max-width: 1280px;
+    margin: 0 160px 0 160px;
+
+}
+.news-description{
+color: rgba(14, 14, 14, 0.7);
+font: 13px;
+}
+.bangladesh{
+   display: flex;
+   gap: 32px;
+   padding: 48px 48px;
+   max-width: 1280px;
+   height: 300px;
+   border-radius: 24px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.info{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 10px;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+}
+.satelite-container{
+max-width: 730px;
+
+}
+
+  
+   
