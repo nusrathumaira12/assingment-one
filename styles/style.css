@@ -193,11 +193,15 @@ max-width: 730px;
     gap: 32px;
     background-color: rgba(14, 14, 14, 0.15);
     border: 5px;
-    margin: 0 auto; 
-    padding: 0 94px;
+    margin: 0 160px; 
+    padding: 0 104px;
+    
     text-align: center;
     align-items: center;
     margin-top: 70px;
+}
+.donate-title{
+    padding-top: 50px;
 }
 .container{
     display: flex;
@@ -255,5 +259,49 @@ max-width: 730px;
 .green{
     background-color: #C6E4D6;
 }
-  
+.newsletter{
+    max-width: 1280px;
+    background-position: center;
+    text-align: center;
+   margin: 0 auto;
+    background-color: #C6E4D6;
+    height: 395px;
+    gap: 64px;
    
+}
+
+
+.newletter-title{
+font-size: 40px;
+font-weight: bold;
+width: 750px;
+height: 48px;
+padding: 0px 265px 0px  265px;
+
+padding-top: 80px;
+}
+.newsletter-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    height: 48px;
+   
+}
+ footer input[type="email"]{
+height: 54px;
+background-color: white;
+color: rgba(14, 14, 14, 0.3);
+width: 50%;
+border: none;
+box-shadow: 0px 4px  4px 0px rgba(0, 0, 0, 0.25);
+
+}
+footer input[type="button"]{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    height: 54px;
+    border: none;
+    width: 150px;
+   box-shadow: 0px 4px  4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
