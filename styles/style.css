@@ -1,3 +1,5 @@
+
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -90,12 +92,15 @@
 }
 .btn-1{
     background-color: #5490F5;
+    color: #FFFFFF;
 }
 .btn-2{
-    background-color: #09A15C
+    background-color: #09A15C;
+     color: #FFFFFF;
 }
 .btn-3{
 background-color: #FFC239;
+color: #FFFFFF;
 }
 button{
     border: none;
@@ -107,4 +112,40 @@ button{
 .hw{
     height: 41px;
     width: 120px;
+}
+.vision-description{
+color: rgba(14, 14, 14, 0.7);
+}
+#yellow{
+    background-color: #F7EBCF;
+}
+.challenge{
+    background-image: url(../assets/quote-bg.png);
+    height: 206px;
+    max-width: 1280px;
+  padding: 10px;
+    border-radius: 16px;
+    border: none;
+     background-repeat: no-repeat;
+    background-position: top left;
+   border: 2px solid #F1F1F3;
+   margin-top: 20px;
+   padding: 5px;
+   object-fit: cover;
+  
+}   
+.challenge-description{
+  margin-bottom: 0px;
+    font-size: 16px;
+   
+   }
+   .challenge-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 12px;
+    margin-top: 2px;
+   
+    }
+.challenge-title{
+margin-top: 12px;
+margin-bottom: 0px;
 }
