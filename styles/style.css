@@ -2,13 +2,17 @@
     display: flex;
     justify-content: space-between;
     margin: 0 160px 0 160px;
-    background-color: #C6E4D6;
-   height: 500px;
+   
+    height: 500px;
    border-radius: 24px;
    max-width: 1280px;
    padding: 100px 90px;
    
    
+}
+
+#secondary-bg{
+    background-color: #C6E4D6;
 }
 
 .btn-primary{
@@ -50,4 +54,57 @@
 .banner-profile-pic{
     width: 329px;
     object-fit: contain;
+}
+.text-center{
+    text-align: center;
+}
+
+.technology-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.technology{
+    padding: 30px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+   
+}
+.visions{
+    margin: 100px 160px;
+}
+
+.tech-description{
+    font-size: 16;
+    color: rgba(14, 14, 14, 0.7);
+}
+.tech-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.btn-1{
+    background-color: #5490F5;
+}
+.btn-2{
+    background-color: #09A15C
+}
+.btn-3{
+background-color: #FFC239;
+}
+button{
+    border: none;
+    border-radius: 8px;
+  
+    
+}
+
+.hw{
+    height: 41px;
+    width: 120px;
 }
